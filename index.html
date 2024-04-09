@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Web Developer - Alexander Polanco</title>
+  <meta name="content" content="Portfolio Web Developer - Alexander Polanco" />
+  <meta name="description"
+    content="Porfolio construido como proyecto final para obtener el certificado de Oracle Next Education">
+  <!--REVISAR CUNADO SE TENGA EL DOMINIO DE LA PAGINA-->
+  <link rel="canonical" href="#" />
+  <!-- AGREGA EL ICONO DE LA PAGINA
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="./assets/favicon.png" /> -->
+  <!-- CAMBIA EL COLOR DE LA BARRA DE NAVEGACION DE LOS DISPOSITIVOS MOVILES-->
+  <meta name="theme-color" content="#0a3871" />
+  <!--ETIQUETAS PARA HABILITAR EL FORMATO DE CARD AL COMPARTIR ENLACE EN LAS REDES SOLCIALES -->
+  <meta property="og:title" content="Portfolio Web Developer - Alexander Polanco" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta name="twitter:card" content="Portfolio Web Developer - Alexander Polanco">
+  </meta>
+  <meta name="twitter:site" content="@JosemendezCL" /> <!--cuenta de twitter-->
+  <link rel="stylesheet" href="reset-box.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <a href="#experience" class="text-yellow-500">Experiencia</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#about">Sobre mí</a>
+      <a href="mailto:alexander.polanco@gmail.com">Contacto</a>
+      <svg id="light" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+        stroke-linecap="round" stroke-linejoin="round" style="scale: 1;">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+        <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+      </svg>
+      <svg id="dark" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+        stroke-linecap="round" stroke-linejoin="round" style="scale: 1;">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+      </svg>
+    </nav>
+    <section id="welcome-section">
+      <div id="messaje-welcome">
+        <img src="./assets/foto320x489.webp" alt="">
+        <a href="https://www.linkedin.com/in/jose-alexander-polanco-mendez/" target="_blank"
+          class="button featured-button ">Disponible para trabajar</a>
+      </div>
+      <h1>Hey, soy Alexander</h1>
+      <p>+10 años de experiencia.<strong>Técnico superior en informatica</strong> de Santiago, Chile
+        CL. Especializado en el desarrollo de aplicaciones web.</p>
+      <div id="buttons-contact">
+        <a href="mailto:alexander.polanco@gmail.com" class="button contrast-button">
+          <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5"></path>
+            <path d="M3 6l9 6l9 -6"></path>
+            <path d="M15 18h6"></path>
+            <path d="M18 15l3 3l-3 3"></path>
+          </svg>
+          Contáctame
+        </a>
+        <a href="https://www.linkedin.com/in/jose-alexander-polanco-mendez/" target="_blank"
+          class="button contrast-button">
+          <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+            <path d="M8 11l0 5"></path>
+            <path d="M8 8l0 .01"></path>
+            <path d="M12 16l0 -5"></path>
+            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+          </svg>
+          Linkedin
+        </a>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section id="experience">
+      <div class="container-title">
+        <svg class="size-8" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+          fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+          <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path>
+          <path d="M12 12l0 .01"></path>
+          <path d="M3 13a20 20 0 0 0 18 0"></path>
+        </svg>
+        <h3 class="experience-tile">Experiencia laboral</h3>
+      </div>
+      <div class="container-experiencies">
+
+        <span class="bar"></span>
+        <div class="group-experiencies">
+          <article>
+            <div class="container-activity">
+              <span class="point">•</span>
+              <div>
+                <span class="text-job">Jefe de Proyecto</span>
+                <span class="text-empresa">Angular</span>
+                <small class="text-date-job">Actualmente...</small>
+              </div>
+            </div>
+            <div class="container-description">He crecido profesionalmente pasando por áreas de desarrollo de software
+              llegando a la gestión de proyectos, en esta
+              última área he abordado desde la concepción y planificación hasta la ejecución y entrega final.</div>
+          </article>
+          <article>
+            <div class="container-activity">
+              <span class="point">•</span>
+              <div>
+                <span class="text-job">Programador</span>
+                <span class="text-empresa">Andain</span>
+                <small class="text-date-job">Junio 2018</small>
+              </div>
+            </div>
+            <div class="container-description">Responsable de mantener e implementar nuevas funcionalidades para la API
+              de
+              la aplicación móvil estrella de la empresa.
+            </div>
+          </article>
+          <a href="https://www.linkedin.com/in/jose-alexander-polanco-mendez/" class="know-more" target="_blank">Saber
+            más <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M9 6l6 6l-6 6"></path>
+            </svg></a>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container-title">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" stroke-width="2"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M7 8l-4 4l4 4"></path>
+          <path d="M17 8l4 4l-4 4"></path>
+          <path d="M14 4l-4 16"></path>
+        </svg>
+        <h3 class="project-tile">Proyectos</h3>
+      </div>
+      <div class="group-project">
+        <div class="img-project">
+          <img
+            src="https://res.cloudinary.com/dode3agpj/image/upload/v1707952779/freecodecamp-portfolio/encriptador.webp"
+            alt="Imagen de aplicacion web para encriptar texto">
+        </div>
+        <div class="text-project">
+          <h4>Encriptador de texto - Challenge ONE</h4>
+          <p>Este encriptador de texto es una actividad recomendada de realizar por el
+            programe G6 ONE. La idea es poner
+            en práctica
+            lo aprendido con este challenge.</p>
+          <div>
+            <a id="profile-link" href="https://github.com/alexanderpolanco/chanllage-one-encriptador/tree/main"
+              target="_blank" class="button contrast-button">
+              <svg class="size-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                </path>
+              </svg>
+              Code
+            </a>
+            <a href="https://alexanderpolanco.github.io/chanllage-one-encriptador/" target="_blank"
+              class="button contrast-button">
+              <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+              Preview
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certifications">
+      <div class="container-title">
+        <svg class="size-8" width="32" height="32" viewBox="0 0 256 256" stroke-width="0" stroke="currentColor"
+          fill="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M20.2 10.8c-3.5 1.2-6 3-7.6 5.5-2.8 4.6-2.7-1.3-2.6 90.5l.1 83.8 1.2 2.5c1.7 3.7 3.3 5.3 6.8 7l3.1 1.5h66l2.6-1.2c5.4-2.5 8.5-7.4 8.5-13.3 0-6-2.8-10.5-8-13l-3.1-1.5-23.9-.1-23.9-.1V39.5h177.2l.1 16.5.1 16.5 1.5 3.1c2.5 5.2 7.1 7.9 13 8 6 0 10.8-3 13.3-8.5l1.2-2.6V46.8c0-25.5 0-25.6-1-27.8-1.7-3.7-3.6-5.7-7-7.3l-3.1-1.5-106.1-.1C27.7 10 22.5 10 20.2 10.8z" />
+          <path
+            d="M150.1 69.5c-9.2 1.2-17.9 4.6-25.7 9.8-4.4 3-12.6 11.1-15.6 15.6-14.3 21.4-13.5 48.4 2 68.7l2.5 3.2.1 34.1.1 34.1 1.2 2.5c1.7 3.7 3.3 5.3 6.8 7 2.6 1.3 3.6 1.5 6.6 1.5 6 0 7.2-.9 19.2-12.8l10.3-10.2 10.3 10.2c12 11.9 13.3 12.8 19.2 12.8 6 0 10.8-3.1 13.3-8.5l1.2-2.6.1-34.1.1-34 3-4c5.2-7 8.9-15.1 10.7-23.7 1.2-5.4 1.2-16.7.1-22.2-2.6-12.4-7.7-21.8-16.4-30.5S181 72.6 168.9 70.1c-4.4-.9-14.5-1.2-18.8-.6zm13.8 29.7c13.3 2.8 23.3 15.2 23.3 28.8 0 16.1-13.4 29.5-29.5 29.5s-29.5-13.4-29.5-29.5c0-10.9 6.5-21.5 16.2-26.3 6.3-3 12.7-3.9 19.5-2.5zm-13.4 87.3c6.4 1 10.3.8 20.2-1l1.7-.3V216.9l-7.4-7.4-7.4-7.4-7.4 7.4-7.4 7.4v-31.8l1.8.3c.9.3 3.6.7 5.9 1.1z" />
+        </svg>
+        <h3 class="experience-tile">Licencias y certificaciones</h3>
+      </div>
+      <div class="group-certifications">
+        <div class="container-certifications">
+          <div class="container-logo-certificartion">
+            <img width="48"
+              src="https://media.licdn.com/dms/image/D4D0BAQGxDpCf6Cm0xQ/company-logo_100_100/0/1701180993504/alura_latam_logo?e=1720656000&amp;v=beta&amp;t=ua18OVIGT_o8ZTDF4pEqYh7YM26rGC_zalhdruX7mOo"
+              loading="lazy" height="48" alt="Logotipo de Alura Latam" class="border-logo-certificartion">
+          </div>
+          <div class="details-certification">
+            <span>
+              <h5 class="title-certification">CSS: Flexbox y loyouts responsivos</h5>
+            </span>
+            <span>Alura Latam</span>
+            <span>Expedición: abr. 2024</span>
+            <span>ID de la credencial 7384a12e-2c70-4bf0-87f0-17185d29616a</span>
+            <a href="https://app.aluracursos.com/certificate/7384a12e-2c70-4bf0-87f0-17185d29616a?lang" target="_blank"
+              class="button contrast-button">
+              Mostrar credencial
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 64 64" fill="currentColor"
+                width="14" height="14">
+                <path d="M53 56H8V11h22V3H0v61h61V34h-8z" />
+                <path d="m42 0 8 8-17 17 6 6 17-17 8 9V0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="container-certifications">
+          <div class="container-logo-certificartion"><img width="48"
+              src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1630639684997/free_code_camp_logo?e=1720656000&v=beta&t=dWl5P8INXOfftxq6RdP7mUCCEQ6Czxg0_GrET8Unlno"
+              loading="lazy" height="48" alt="Logotipo de freeCodeCamp" class="border-logo-certificartion">
+          </div>
+          <div class="details-certification">
+            <span>
+              <h5 class="title-certification">Responsive Web Design</h5>
+            </span>
+            <span>freeCodeCamp</span>
+            <span>Expedición: feb. 2024</span>
+            <a href="https://freecodecamp.org/certification/jose_alexander_polanco_mendez/responsive-web-design"
+              target="_blank" class="button contrast-button">
+              Mostrar credencial
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 64 64" fill="currentColor"
+                width="14" height="14">
+                <path d="M53 56H8V11h22V3H0v61h61V34h-8z" />
+                <path d="m42 0 8 8-17 17 6 6 17-17 8 9V0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="container-certifications">
+          <div class="container-logo-certificartion"><img width="48"
+              src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1630639684997/free_code_camp_logo?e=1720656000&v=beta&t=dWl5P8INXOfftxq6RdP7mUCCEQ6Czxg0_GrET8Unlno"
+              loading="lazy" height="48" alt="Logotipo de freeCodeCamp" class="border-logo-certificartion">
+          </div>
+          <div class="details-certification">
+            <span>
+              <h5 class="title-certification">Back End Development and APIs</h5>
+            </span>
+            <span>freeCodeCamp</span>
+            <span>Expedición: feb. 2024</span>
+            <a href="https://freecodecamp.org/certification/jose_alexander_polanco_mendez/back-end-development-and-apis"
+              target="_blank" class="button contrast-button">
+              Mostrar credencial
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 64 64" fill="currentColor"
+                width="14" height="14">
+                <path d="M53 56H8V11h22V3H0v61h61V34h-8z" />
+                <path d="m42 0 8 8-17 17 6 6 17-17 8 9V0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="container-certifications">
+          <div class="container-logo-certificartion"><img width="48"
+              src="https://media.licdn.com/dms/image/D4D0BAQGxDpCf6Cm0xQ/company-logo_100_100/0/1701180993504/alura_latam_logo?e=1720656000&amp;v=beta&amp;t=ua18OVIGT_o8ZTDF4pEqYh7YM26rGC_zalhdruX7mOo"
+              loading="lazy" height="48" alt="Logotipo de Alura Latam" class="border-logo-certificartion">
+          </div>
+          <div class="details-certification">
+            <span>
+              <h5 class="title-certification">Git y GitHub: repositorio, commit y versiones</h5>
+            </span>
+            <span>Alura Latam</span>
+            <span>Expedición: ene. 2024</span>
+            <span>ID de la credencial dc1b9bdb-b5f0-4241-8837-0569282e1305</span>
+            <a href="https://app.aluracursos.com/certificate/dc1b9bdb-b5f0-4241-8837-0569282e1305" target="_blank"
+              class="button contrast-button">
+              Mostrar credencial
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 64 64" fill="currentColor"
+                width="14" height="14">
+                <path d="M53 56H8V11h22V3H0v61h61V34h-8z" />
+                <path d="m42 0 8 8-17 17 6 6 17-17 8 9V0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="container-certifications">
+          <div class="container-logo-certificartion"><img width="48"
+              src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1630639684997/free_code_camp_logo?e=1720656000&v=beta&t=dWl5P8INXOfftxq6RdP7mUCCEQ6Czxg0_GrET8Unlno"
+              loading="lazy" height="48" alt="Logotipo de freeCodeCamp" class="border-logo-certificartion">
+          </div>
+          <div class="details-certification">
+            <span>
+              <h5 class="title-certification">Algoritmos de JavaScript y Estructuras de Datos</h5>
+            </span>
+            <span>freeCodeCamp</span>
+            <span>Expedición: nov. 2023</span>
+            <a href="https://www.freecodecamp.org/espanol/certification/jose_alexander_polanco_mendez/javascript-algorithms-and-data-structures"
+              target="_blank" class="button contrast-button">
+              Mostrar credencial
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 64 64" fill="currentColor"
+                width="14" height="14">
+                <path d="M53 56H8V11h22V3H0v61h61V34h-8z" />
+                <path d="m42 0 8 8-17 17 6 6 17-17 8 9V0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <a href="https://www.linkedin.com/in/jose-alexander-polanco-mendez/details/certifications/"
+          style="align-self: flex-end;" class="know-more" target="_blank">Saber más
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M9 6l6 6l-6 6"></path>
+          </svg></a>
+
+      </div>
+    </section>
+    <section id="about">
+      <h3 class="experience-tile">
+        <svg class="size-8" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+          fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+          <path d="M6 21v-2a4 4 0 0 1 4 -4h4"></path>
+          <path d="M15 19l2 2l4 -4"></path>
+        </svg>
+        Sobre mi
+      </h3>
+      <div class="container-about">
+        <div class="description-about">
+          <p>Con más de diez años laborando en empresas del rubro de la tectología, donde he crecido profesionalmente
+            pasando por
+            áreas de <span class="text-yellow">desarrollo de software </span> llegando a la <span
+              class="text-yellow">gestión de proyectos</span>, en esta
+            última área he
+            abordado desde la
+            concepción
+            y <span class="text-yellow">planificación hasta la ejecución y entrega final.</span></p>
+          <p>
+            Me enfoco en manejar la <span class="text-yellow">coordinación de equipos</span>, establecimiento de metas
+            claras, asignación de
+            recursos,
+            seguimiento
+            del progreso y resolución de problemas, lo que me permite garantizar el cumplimiento de plazos y objetivos.
+          </p>
+        </div>
+        <div>
+          <img class="foto-about" loading="lazy"
+            src="https://res.cloudinary.com/dode3agpj/image/upload/v1707952775/freecodecamp-portfolio/foto320x489.webp"
+            alt="Foto de José Alexander Polanco Méndez">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <small>2024 Alexander Polanco - agradecimientos a midudev</small>
+  </footer>
+</body>
+
+</html>
+<script>
+  const root = document.querySelector(":root")
+  const buttonLight = document.querySelector("#light")
+  const buttonDark = document.querySelector("#dark")
+  const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)")
+
+  function changeScheme() {
+    if ((darkModePreference.matches && root.className === '') || root.className === 'dark') {
+      root.className = 'light'
+    } else {
+      root.className = 'dark'
+    }
+  }
+
+  buttonLight.addEventListener('click', changeScheme)
+  buttonDark.addEventListener('click', changeScheme)
+
+</script>
