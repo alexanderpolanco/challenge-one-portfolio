@@ -8,7 +8,7 @@
   <p align="center">
     Challenge ONE | Portfolio
     <br />
-    <a href="https://alexanderpolanco.github.io/chanllage-one-portfolio/" target="_blank"><strong>Ver demo »</strong></a>
+    <a href="https://alexanderpolanco.github.io/challenge-one-portfolio/" target="_blank"><strong>Ver demo »</strong></a>
     <br />
   </p>
 </div>
@@ -17,7 +17,7 @@
 
 ## Acerca del proyecto
 
-[![Vista desktop][product-screenshot-desktop]](https://alexanderpolanco.github.io/chanllage-one-portfolio/)
+[![Vista desktop][product-screenshot-desktop]](https://alexanderpolanco.github.io/challenge-one-portfolio/)
 
 Este portfolio es una actividad recomendada de realizar por el programe G6 ONE. La idea es poner en práctica lo aprendido con este challenge.
 
@@ -30,7 +30,7 @@ Este portfolio es una actividad recomendada de realizar por el programe G6 ONE. 
 - FLEXBOX
 
 <p align="center">
-<a href="https://alexanderpolanco.github.io/chanllage-one-portfolio/" target="_blank"><img src="./assets/shots_movil_so.webp"/></a>
+<a href="https://alexanderpolanco.github.io/challenge-one-portfolio/" target="_blank"><img src="./assets/shots_movil_so.webp"/></a>
 </p>
 
 ### Desarrollo
