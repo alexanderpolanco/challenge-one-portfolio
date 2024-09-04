@@ -360,6 +360,12 @@ header img {
   flex-direction: row;
 }
 
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .bar {
   position: relative;
   border: 0.5px solid var(--gray-gray-200);
@@ -382,7 +388,7 @@ header img {
   position: relative;
   font-size: 3rem;
   left: -22.5px;
-  top: -10px;
+  top: -15px;
   color: var(--yellow-500);
 }
 
@@ -466,6 +472,7 @@ header img {
   max-width: 400px;
   width: 100%;
   border-radius: 15px;
+  border: solid var(--white-100) 5px;
 }
 
 .text-project h4 {
